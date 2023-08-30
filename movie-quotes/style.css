@@ -37,3 +37,8 @@ p {
   color: white;
 }
 
+img {
+  position: fixed;
+  float: right;
+  object-position: top 50%;
+}
