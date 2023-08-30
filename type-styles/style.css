@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  background-color: pink;
+  margin: 5%;
+  border-radius: 25px;
+  box-shadow: 2px 5px 10px hotpink;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+}
+
+.spaced {
+  letter-spacing: 0.1em;
+}
+
+.not-spaced {
+  letter-spacing: -0.1em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.title {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 5%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.subtitle {
+  text-align: left;
+  margin-left: 20%;
+  color: hotpink;
+  text-shadow: 1px 1px 2px white;
+}
