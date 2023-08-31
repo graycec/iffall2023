@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .portrait {
+    float: left;
+    margin: 2rem 0;
+  }
+  
+  .instructions {
+    clear: both;
+  }
