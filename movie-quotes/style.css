@@ -38,7 +38,10 @@ p {
 }
 
 img {
-  position: fixed;
-  float: right;
-  object-position: top 50%;
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    width: 600px;
+    height: 780px;
+    object-fit: cover;
 }
