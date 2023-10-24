@@ -7,9 +7,7 @@ html {
   /* Responsive Design */
   html { margin: auto; }
   @media (max-width: 320px) {
-  html { width: 50%; }
-    body {display: table-cell;
-    vertical-align: middle;}
+  html { margin: 50%; }
   }
 
   body {
