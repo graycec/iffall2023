@@ -1,0 +1,210 @@
+html {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  html { margin: auto; }
+  @media (max-width: 320px) {
+  html { width: 50%; }
+    body {display: table-cell;
+    vertical-align: middle;}
+  }
+
+  body {
+    font-family: Monaco;
+    background-color: rgb(247,250,255);
+    color: rgb(247,250,255);
+    background-image: url("marble.jpg");
+    background-position: center;
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+  
+  section {
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: dotted #893101;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 0 110px;
+    color: rgb(247,250,255);
+  }
+  
+  button:hover {
+    color: #893101;
+    background-color:  rgb(247,250,255);
+  }
+  
+  .title {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  
+  .header-content {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    width: 800px;
+    display: flex;
+  }
+  
+  .info {
+    width: 400px;
+    text-align: left;
+  }
+  
+  .header-content img {
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+  }
+  
+  .subtitle {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 75%;
+    height: auto;
+  }
+  
+  .ingredients {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 0px 0px 100px;
+    width: 50%;
+    height: auto;
+  }
+  
+  .ingredients-list {
+    height: 55%;
+  }
+  
+  .ingredients ul {
+    list-style-type: none;
+  }
+  
+  .ingredients h1 {
+    text-align: center;
+    margin-left: -100px;
+  }
+  
+  
+  .picture-right {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    /* margin-top: 100px; */
+    height: 400px;
+    width: 801px;
+  }
+  
+  .instruction {
+    width: 400px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .picture1 {
+    float: right;
+    margin-top: -287px;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+    clear:both;
+  }
+  
+  .cc {
+    float: right;
+    margin-top: -215px;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+    clear:both;
+  }
+  
+  
+  .picture-left {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    margin-top: -35px;
+    height: 400px;
+    width: 801px;
+  }
+  
+  .instruction-left {
+    width: 400px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 150px;
+  }
+  
+  .picture-left img {
+    float: left;
+    margin-top: -205px;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+    clear:both;
+  }
+  
+  div {
+    overflow: hidden;
+  }
+  
+  .picture-left2 {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    margin-top: 0px;
+    height: 400px;
+    width: 801px;
+  }
+  
+  .picture-left2 img {
+    float: left;
+    margin-top: -215px;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+    clear:both;
+  }
+  
+  .picture2 {
+    float: right;
+    margin-top: -190px;
+    height: 400px;
+    width: 400px;
+    margin-right: 0;
+    clear:both;
+  }
+  
+  .final-instructions {
+    background-color: rgb(187,107,55);
+    margin: auto;
+    width: 800px;
+    text-align: center
+  }
