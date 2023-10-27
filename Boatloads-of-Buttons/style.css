@@ -1,0 +1,420 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.button_container {
+  border: 1px solid #ddd;
+  margin: 0 10px 10px 0;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* display: inline-block;
+height: 50px;
+box-sizing: border-box;
+border-radius: 25px;
+margin: auto;
+margin-top: 100px;
+padding: 10px 40px 0 40px;
+background-color: #2ebd59;
+border: 2px solid #2ebd59;
+color: #fff;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-decoration: none;
+transition: all .5s; */
+/* Moo */
+
+a#btn_moo {
+  background-color: #0e7c5d;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -2px;
+  transition: all .4s;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: "liberation-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  z-index: 10%;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  /* top: 50%;
+  left: 50%; */
+}
+
+a#btn_moo span {
+  position: relative;
+  z-index: 10;
+  top: 25%;
+  left: 12%;
+}
+
+a#btn_moo .droplet {
+  color: white;
+  z-index: 10;
+  position: relative;
+  top: -15%;
+  right: 32%;
+}
+
+
+a#btn_moo:hover {
+  background-color: white;
+  border-color: #0e7c5d;
+  border-weight: 1px;
+  color: #0e7c5d;
+}
+
+
+a#btn_moo:hover .droplet {
+  color: #0e7c5d;
+}
+
+a#btn_cn {
+  top: 50%;
+  left: 50%; 
+}
+
+a#btn_cn img {
+  height: 50px;
+  width: 130px;
+  position: relative;
+  z-index: 10;
+  top: 40%;
+}
+
+a#btn_cn .cn2 {
+  display: none;
+}
+
+a#btn_cn:hover .cn2 {
+  display: inline-block;
+}
+
+a#btn_cn:hover .cn1 {
+  display: none;
+}
+
+a#btn_insta {
+  transition: all 0.5s;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  z-index: 10%;
+  display: inline;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 75px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 40px;
+  /* background-color: black; */
+  background: rgba(0, 0, 0, 0);
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 15%;
+  padding-bottom: 70px;
+  padding-top: 0;
+}
+
+a#btn_insta span{
+  position: relative;
+  top: 15%;
+  margin: auto;
+  width: auto;
+  font-weight: bold;
+}
+
+
+a#btn_insta i{
+  color: #000;
+  position: relative;
+  top: 15%;
+}
+
+a#btn_insta:hover .fa-instagram{
+  color: #fff;
+}
+
+a#btn_insta:hover {
+  color: #fff;
+}
+
+a#btn_insta:hover { 
+  background: linear-gradient(135deg, #ff1a00 0%,#f96c00 14%,#f9f900 38%,#1cd600 58%,#1cd600 58%,#002fed 77%,#002fed 77%,#002fed 77%,#002fed 77%,#002fed 77%,#002fed 77%,#8600e0 92%);
+  alpha: 100;
+}
+
+
+a#btn_ideo {
+  width: 500px;
+  margin: 300px 0 0;
+  transition: all 1s;
+  transform-origin: 50% 50%;
+  position: relative;
+  top: 115px;
+  text-decoration: none;
+}
+
+
+
+a#btn_ideo .orangearc{    
+  display: inline-block;
+  padding: 1em;
+  transition: transform 1s;
+  width: 10px;
+  border-radius: 2px;
+  width: 10px;
+  height: 5px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px; 
+  border: 10px solid  #f0582c;
+  border-top: 0;
+  color: transparent;
+  opacity: 0;
+}
+
+a#btn_ideo .bluearc{    
+  display: inline-block;
+  padding: 1em;
+  transition: transform 1s;
+  width: 10px;
+  border-radius: 2px;
+  width: 10px;
+  height: 5px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px; 
+  border: 10px solid  #6fcbc9;
+  border-bottom: 0;
+  margin-left: -90px;
+  color: transparent;
+}
+
+a#btn_ideo:hover {
+  transform: rotate(180deg);
+}
+
+a#btn_ideo:hover .orangearc {    
+  transform: rotate(-180deg);
+  opacity: 100;
+  display: inline-block;
+}
+
+a#btn_stjude {    
+  display: inline-block;
+  padding: 1em;
+  width: 400px;
+  height: 400px;
+}
+
+a#btn_stjude .sjimg{    
+  height: 190px;
+  width: 290px;
+  object-fit: cover;
+  position:relative;
+  right: 90px;
+  transition: transform 1s;
+}
+
+a#btn_stjude .sjtext{    
+  height: 90px;
+  width: 290px;
+  object-fit: cover;
+  position:relative;
+  right: 90px;
+  transition: transform 1s;
+  opacity: 0;
+}
+
+a#btn_stjude:hover img{    
+  transform: translateY(-35px);
+  opacity: 1;
+}
+
+
+
+a#btn_army {    
+  display: inline-block;
+  padding: 1em;
+  width: 150px;
+  height: 100px;
+  margin: auto;
+  background: url("img/camo.jpeg");
+  transition: all 2s ease;
+  background-size: cover;
+  font-family: helvetica;
+  font-weight: bold;
+  color: gold;
+  font-size: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px 30px 0 2px;
+  text-decoration: none;
+}
+
+a#btn_army:hover {    
+  width: 200px;
+  height: 120px;
+  font-size: 67px;
+}
+
+a#btn_ff:hover .fa-plane{
+  transform: rotate(-15deg) translate(100px, -100px) scale(1.0);
+  color: black
+}
+
+a#btn_ff .fa-plane{
+  transform: scale(1.5);
+  color: white;
+  transition: transform 2s;
+}
+
+a#btn_ff {
+  width: 520px;
+  margin: 300px 0 0;
+  transition: transform 2s;
+  transform-origin: 50% 50%;
+  position: relative;
+  top: 115px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+a#btn_ek {
+  width: 100px;
+  height: auto;
+  transition: all 2s;
+  transform-origin: 50% 50%;
+  position: relative;
+  top: 42px;
+}
+
+a#btn_ek img{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  object-fit: cover;
+  transition: all 2s;
+}
+
+a#btn_ek .cat2{
+  display: none;
+}
+
+a#btn_ek:hover .cat2{
+  display: inline-block;
+  animation: fadeIn 2s;
+}
+
+a#btn_ek:hover .cat1{
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+
+a#btn_mj {
+  width: 100px;
+  height: auto;
+  transition: all 2s;
+  transform-origin: 50% 50%;
+  position: relative;
+  top: 80px;
+}
+
+a#btn_mj img{
+  width: 250px;
+  height: 35px;
+  object-fit: cover;
+  z-index: 10%;
+  transition: all 3s;
+  border: 5px solid white;
+  border-radius: 5px;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+a#btn_mj:hover img {
+  border: darkgreen;
+  filter: invert(1);
+  
+}
+
+a#btn_tts {
+  transition: all 2s;
+  transform-origin: 50% 50%;
+  position: relative;
+  top: 20px;
+}
+
+a#btn_tts span {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  transition: all 2s;
+  transform-origin: 50% 50%;
+  position: relative;
+  top: 42px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+a#btn_tts img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: all 2s;
+}
+
+a#btn_tts:hover span{
+  background-color: black;
+  animation: fadeIn 1s;
+}
