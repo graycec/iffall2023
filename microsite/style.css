@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60%;
+}
+
+.title {
+  text-align: center;
+}
+
+.bodyscroll {
+  width: 95%;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid black;
+  overflow: scroll;
+  padding: 30px;
+}
+
+.header {
+  position: sticky;
+  width: auto;
+  margin-right: 0;
+  border: 1px solid black;
+}
+
+.logo {
+  height: 125px;
+  width: 105px;
+  object-fit: cover;
+  margin-left: 46%;
+}
+
+.text {
+  text-align: center;
+}
+
+.footer {
+  width: 70%;
+  margin: auto;
+  text-align: right;
+}
+
+.header a {
+  width: 150%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
